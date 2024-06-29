@@ -18,3 +18,6 @@ imageHeight = 120
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/safesh"
+
+[minify]
+disableXML = true
