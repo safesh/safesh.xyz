@@ -11,7 +11,7 @@ unsafe = true
 enabled = true
 title = "safesh"
 subtitle = "Fast, safe, and easy to use SSH key infrastructure."
-imageUrl = "logo.png"
+imageUrl = "safesh.png"
 imageWidth = 120
 imageHeight = 120
 
