@@ -3,6 +3,24 @@ languageCode = 'en-us'
 title = 'safesh'
 theme = 'PaperMod'
 
+[languages.en]
+languageName = "English"
+weight = 1
+
+[params.assets]
+favicon16x16 = "favicon.ico"
+favicon32x32 = "favicon.ico"
+
+[languages.en.taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[[languages.en.menu.main]]
+name = "Blog"
+url = "blog/"
+weight = 5
+
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
 unsafe = true
@@ -21,3 +39,5 @@ url = "https://github.com/safesh"
 
 [minify]
 disableXML = true
+
+mainsections = ["posts"]
